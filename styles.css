@@ -182,3 +182,12 @@ h2 {
         flex-direction: column;
     }
 }
+.bob{
+     border: solid 20px;
+  border-color: purple; 
+  border-width: thick;
+  border-radius: 10px;
+  background:black; 
+  color:rebeccapurple; 
+  font-family: cursive;
+}
