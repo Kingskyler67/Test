@@ -236,7 +236,6 @@ img {
   color:purple; 
   font-family: cursive;
 }
-.
 .foot{
   color: red;
 }
@@ -418,5 +417,5 @@ img {
 }
 a:hover{
     color: red;
-    font-family: fantasy;
+    font-family: monospace;
 }
