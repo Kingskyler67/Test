@@ -97,6 +97,6 @@ jobs:
           ssh-keyscan -t rsa ${{ secrets.DEV_DEPLOY_HOST }} > ~/.ssh/known_hosts
           echo "${{ secrets.DEV_DEPLOY_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          rsync -avzP --delete-excluded --delete -e 'ssh -p ${{ secrets.DEV_DEPLOY_HOST_PORT }}' '${{ github.workspace }}/' ${{secrets.DEV_DEPLOY_USER}}@${{ secrets.DEV_DEPLOY_HOST }}:/var/www/kingskyler.jjpmann.com/public/ --dry-run
+          rsync -avzP -e 'ssh -p ${{ secrets.DEV_DEPLOY_HOST_PORT }}' '${{ github.workspace }}/' ${{secrets.DEV_DEPLOY_USER}}@${{ secrets.DEV_DEPLOY_HOST }}:/var/www/kingskyler.jjpmann.com/public/ --dry-run
           echo 'RSYNC COMPLETE'
 
