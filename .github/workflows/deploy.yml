@@ -86,7 +86,7 @@ jobs:
           THEME_FOLDER2='${THEME_FOLDER2}'
           APP_FOLDER='${APP_FOLDER}'" >> .deploy.txt
 
-      - name: rsync
+      - name: prepare ssh
         shell: bash
         run: |
           echo 'RSYNC'
@@ -94,12 +94,11 @@ jobs:
           mkdir -p ~/.ssh
           ssh-keyscan -t rsa ${{ secrets.DEV_DEPLOY_HOST }} > ~/.ssh/known_hosts
           echo "${{ secrets.DEV_DEPLOY_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          
+          chmod 600 ~/.ssh/id_rsa      
           ls -lah ~/.ssh
-          
+      - name: do ssh rsync
+        shell: bash
+        run: |
           rsync -avzP -e 'ssh -p 9876' '${{ github.workspace }}/' jjpmann@${{ secrets.DEV_DEPLOY_HOST }}:/var/www/kingskyler.jjpmann.com/public/ --dry-run 
-          
-          
           echo 'RSYNC COMPLETE'
 
