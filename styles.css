@@ -191,3 +191,232 @@ h2 {
   color:rebeccapurple; 
   font-family: cursive;
 }
+img {
+  color: purple;
+  border-width: thick;
+}
+.Terry {
+  border: solid 3px; 
+  border-width: medium;
+  border-radius: 10px;
+  background: brown; 
+  color:gold; 
+  font-family: cursive;
+}
+.adley{
+    border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: black; 
+  color:orange; 
+  font-family: cursive;
+}
+.judge{
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: navy; 
+  color:white; 
+  font-family: cursive;
+  border-color: gray;
+}
+.Ohtani{
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: white; 
+  color:dodgerblue; 
+  font-family: cursive;
+}
+.lebron{
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: gold; 
+  color:purple; 
+  font-family: cursive;
+}
+.
+.foot{
+  color: red;
+}
+.ball{
+  color: navy;
+}
+.Basket{
+  color: purple;
+}
+.trivia{
+  color: brown;
+}
+.chapman{
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: white; 
+  color:navy; 
+  font-family: cursive;
+  border-color: red;
+}
+.saquan{
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: mediumseagreen; 
+  color:black; 
+  font-family: cursive;
+}
+.Luka {
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: gold; 
+  color:purple; 
+  font-family: cursive;
+}
+.jokic {
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: gold ; 
+  color: navy; 
+  font-family: cursive;
+  border-color: skylight;
+}
+.Jaxson{
+  border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: blue ; 
+  color: silver; 
+  font-family: cursive;
+  border-color: limegreen;
+  }
+.Skubal{
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: blue ; 
+  color: white; 
+  font-family: cursive;
+  border-color: orange;
+}
+.Joshy{
+     border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: crimson ; 
+  color: royalblue; 
+  font-family: cursive;
+  border-color: navy;
+}
+.Chase {
+       border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: orange ; 
+  color: white; 
+  font-family: cursive;
+  border-color: black;
+}
+.Durant {
+  border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: red ; 
+  color: black; 
+  font-family: cursive;
+  border-color: gray;
+}
+.Vic {
+  border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: black ; 
+  color: white; 
+  font-family: cursive;
+  border-color: silver;
+}
+.Bry{
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: white; 
+  color:blue; 
+  font-family: cursive;
+  border-color: red;
+}
+.Myles {
+  border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: white; 
+  color: orange; 
+  font-family: cursive;
+  border-color: black;
+}
+.Smith{ 
+  border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: silver; 
+  color:red; 
+  font-family: cursive;
+  border-color: red;
+}
+  .Fernado{
+      border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: wheat; 
+  color:red; 
+  font-family: cursive;
+  border-color: red;
+  }
+.Ryan{
+  border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: Black; 
+  color:crimson; 
+  font-family: cursive;
+}
+.Ken{
+    border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: yellow; 
+  color:darkgreen; 
+  font-family: cursive;
+}
+.Steph {
+   border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: royalblue ; 
+  color: gold; 
+  font-family: cursive;
+  border-color: midnightblue;
+}
+.Brady {
+  border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: white ; 
+  color: red; 
+  font-family: cursive;
+  border-color: dodgerblue;
+}
+.Mike{ 
+  border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: silver; 
+  color:navy; 
+  font-family: cursive;
+  border-color: red;
+}
+a:hover{
+    color: red;
+    font-family: fantasy;
+}
