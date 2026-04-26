@@ -96,7 +96,7 @@ jobs:
           echo "${{ secrets.DEV_DEPLOY_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           
-          cat ~/.ssh/id_rsa
+          ls -lah ~/.ssh
           
           rsync -avzP -e 'ssh -p 9876' '${{ github.workspace }}/' jjpmann@${{ secrets.DEV_DEPLOY_HOST }}:/var/www/kingskyler.jjpmann.com/public/ --dry-run 
           
