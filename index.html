@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyler's Sports Zone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero__content">
+            <p class="eyebrow">Welcome to Skyler's website</p>
+            <h1>Skyler's Sports Zone</h1>
+            <p class="hero__text">
+                Football, baseball, and basketball all in one place. This is a fun space
+                for highlights, favorite moments, and quick trivia challenges.
+            </p>
+            <a class="button" href="#trivia">Play the trivia</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section intro">
+            <div class="section__heading">
+                <p class="eyebrow">Favorite sports</p>
+                <h2>Three sports, lots of excitement</h2>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Football</h3>
+                    <p>
+                        Big plays, fast drives, and amazing catches make football exciting from
+                        the opening kickoff to the final whistle.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Baseball</h3>
+                    <p>
+                        Baseball mixes strategy, teamwork, and huge home run moments that can
+                        change the game in one swing.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Basketball</h3>
+                    <p>
+                        Basketball brings nonstop action with quick passes, clutch shots, and
+                        huge energy from start to finish.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section highlights">
+            <div class="section__heading">
+                <p class="eyebrow">What makes sports fun</p>
+                <h2>Why Skyler might love game day</h2>
+            </div>
+            <div class="highlight-list">
+                <div class="highlight">
+                    <span class="highlight__number">01</span>
+                    <div>
+                        <h3>Team spirit</h3>
+                        <p>Cheering for a team and celebrating big moments makes every game better.</p>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <span class="highlight__number">02</span>
+                    <div>
+                        <h3>Awesome skills</h3>
+                        <p>Players show speed, strength, focus, and creativity in every sport.</p>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <span class="highlight__number">03</span>
+                    <div>
+                        <h3>Fun facts</h3>
+                        <p>There is always something new to learn, from records to surprising trivia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section trivia" id="trivia">
+            <div class="section__heading">
+                <p class="eyebrow">Quiz time</p>
+                <h2>Skyler's sports trivia</h2>
+                <p>Pick an answer for each question and see your score at the end.</p>
+            </div>
+
+            <form class="quiz" id="quiz-form">
+                <fieldset class="quiz__question">
+                    <legend>1. How many points is a touchdown worth in football?</legend>
+                    <label><input type="radio" name="question-1" value="0"> 3 points</label>
+                    <label><input type="radio" name="question-1" value="1"> 6 points</label>
+                    <label><input type="radio" name="question-1" value="0"> 7 points</label>
+                </fieldset>
+
+                <fieldset class="quiz__question">
+                    <legend>2. How many players are on the field for one baseball team at a time?</legend>
+                    <label><input type="radio" name="question-2" value="0"> 7 players</label>
+                    <label><input type="radio" name="question-2" value="0"> 8 players</label>
+                    <label><input type="radio" name="question-2" value="1"> 9 players</label>
+                </fieldset>
+
+                <fieldset class="quiz__question">
+                    <legend>3. How many points is a standard shot worth in basketball?</legend>
+                    <label><input type="radio" name="question-3" value="1"> 2 points</label>
+                    <label><input type="radio" name="question-3" value="0"> 3 points</label>
+                    <label><input type="radio" name="question-3" value="0"> 4 points</label>
+                </fieldset>
+
+                <fieldset class="quiz__question">
+                    <legend>4. Which sport uses a home plate?</legend>
+                    <label><input type="radio" name="question-4" value="0"> Football</label>
+                    <label><input type="radio" name="question-4" value="1"> Baseball</label>
+                    <label><input type="radio" name="question-4" value="0"> Basketball</label>
+                </fieldset>
+
+                <button class="button" type="submit">Check my score</button>
+                <p class="quiz__result" id="quiz-result" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Made for Skyler and his love of sports.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
