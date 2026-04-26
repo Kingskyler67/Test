@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 a:hover{
     color: red;
 }
+=======
+
+>>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -175,6 +179,39 @@ h2 {
     color: #42658f;
 }
 
+<<<<<<< HEAD
+=======
+.page-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.link-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1rem;
+}
+
+.link-list a {
+    text-decoration: none;
+}
+
+.player-card {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.player-card img {
+    width: min(100%, 28rem);
+    height: auto;
+    border-radius: 1rem;
+    justify-self: center;
+}
+
+>>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 @media (max-width: 640px) {
     .hero {
         padding-top: 4rem;
@@ -183,6 +220,14 @@ h2 {
     .highlight {
         flex-direction: column;
     }
+<<<<<<< HEAD
+=======
+
+    .page-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+>>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 }
 .bob{
      border: solid 20px;
@@ -193,6 +238,13 @@ h2 {
   color:rebeccapurple; 
   font-family: cursive;
 }
+<<<<<<< HEAD
+=======
+img {
+  color: purple;
+  border-width: thick;
+}
+>>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 .Terry {
   border: solid 3px; 
   border-width: medium;
@@ -412,4 +464,10 @@ h2 {
   color:navy; 
   font-family: cursive;
   border-color: red;
+<<<<<<< HEAD
+=======
+}
+a:hover{
+    color: red;
+>>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 }
