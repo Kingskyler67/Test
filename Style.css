@@ -1,13 +1,6 @@
 * {
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-a:hover{
-    color: red;
-}
-=======
-
->>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -179,8 +172,6 @@ h2 {
     color: #42658f;
 }
 
-<<<<<<< HEAD
-=======
 .page-actions {
     display: flex;
     justify-content: center;
@@ -211,7 +202,6 @@ h2 {
     justify-self: center;
 }
 
->>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 @media (max-width: 640px) {
     .hero {
         padding-top: 4rem;
@@ -238,13 +228,10 @@ h2 {
   color:rebeccapurple; 
   font-family: cursive;
 }
-<<<<<<< HEAD
-=======
 img {
   color: purple;
   border-width: thick;
 }
->>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 .Terry {
   border: solid 3px; 
   border-width: medium;
@@ -464,10 +451,7 @@ img {
   color:navy; 
   font-family: cursive;
   border-color: red;
-<<<<<<< HEAD
-=======
 }
 a:hover{
     color: red;
->>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 }
