@@ -107,7 +107,7 @@ h2 {
     padding: 1.5rem;
     border: 1px solid rgba(36, 89, 167, 0.12);
     border-radius: 1.25rem;
-    background: #ffffff;
+    background: #000000;
     box-shadow: 0 18px 45px rgba(18, 60, 115, 0.08);
 }
 
@@ -210,14 +210,11 @@ h2 {
     .highlight {
         flex-direction: column;
     }
-<<<<<<< HEAD
-=======
 
     .page-actions {
         flex-direction: column;
         align-items: center;
     }
->>>>>>> 9c277cca1de688e2972bae0c342fdac37aef33b0
 }
 .bob{
      border: solid 20px;
