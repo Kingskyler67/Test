@@ -26,6 +26,6 @@ if ( quizForm && quizResult ) {
             return;
         }
 
-        quizResult.textContent = `Nice job, Skyler. You scored ${ score } out of ${ totalQuestions }!`;
+        quizResult.textContent = `Nice job. You scored ${ score } out of ${ totalQuestions }!`;
     } );
 }
