@@ -470,3 +470,12 @@ a:hover{
   color:white; 
   font-family: cursive;
 }
+.Vahn{ 
+  border: solid 3px; 
+  border-width: thick;
+  border-radius: 10px;
+  background: black; 
+  color: white; 
+  font-family: cursive;
+  border-color: purple;
+}
