@@ -479,3 +479,12 @@ a:hover{
   font-family: cursive;
   border-color: purple;
 }
+.Roch{
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: gold;
+    color: blue;
+    font-family: cursive;
+    border-color: blue;
+}
