@@ -469,6 +469,7 @@ a:hover{
   background: gold; 
   color:white; 
   font-family: cursive;
+  border-color: gold;
 }
 .Vahn{ 
   border: solid 3px; 
