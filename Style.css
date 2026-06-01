@@ -507,3 +507,12 @@ a:hover{
     font-family: cursive;
     border-color: black; 
 }
+.Raid{
+   border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: white;
+    color: silver;
+    font-family: cursive;
+    border-color: black; 
+}
