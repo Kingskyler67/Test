@@ -516,3 +516,12 @@ a:hover{
     font-family: cursive;
     border-color: black; 
 }
+.chiefs {
+  border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: gold;
+    color: red;
+    font-family: cursive;
+    border-color: gold;   
+}
