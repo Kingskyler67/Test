@@ -525,3 +525,12 @@ a:hover{
     font-family: cursive;
     border-color: gold;   
 }
+.Royals {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: royalblue;
+    color: silver;
+    font-family: cursive;
+    border-color: blue;
+}
