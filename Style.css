@@ -543,3 +543,12 @@ a:hover{
     font-family: cursive;
     border-color: maroon; 
 }
+.vikings {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: purple;
+    color: black ;
+    font-family: cursive;
+    border-color: gold; 
+}
