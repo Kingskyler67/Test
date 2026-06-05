@@ -398,7 +398,7 @@ img {
   font-family: cursive;
   border-color: red;
 }
-  .Fernado{
+.Fernado{
       border: solid 3px; 
   border-width: thick;
   border-radius: 10px;
@@ -533,4 +533,13 @@ a:hover{
     color: silver;
     font-family: cursive;
     border-color: blue;
+}
+.Angels {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: navy;
+    color: silver ;
+    font-family: cursive;
+    border-color: maroon; 
 }
