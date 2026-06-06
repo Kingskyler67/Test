@@ -552,3 +552,12 @@ a:hover{
     font-family: cursive;
     border-color: gold; 
 }
+.Padres {
+     border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: white;
+    color: gold;
+    font-family: cursive;
+    border-color: brown;    
+}
