@@ -561,3 +561,12 @@ a:hover{
     font-family: cursive;
     border-color: brown;    
 }
+.Reds {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: white;
+    color: red;
+    font-family: cursive;
+    border-color: black;    
+}
