@@ -570,3 +570,21 @@ a:hover{
     font-family: cursive;
     border-color: black;    
 }
+.Patriots {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: navy;
+    color: silver;
+    font-family: cursive;
+    border-color: red;
+}
+.Broncos {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: navy;
+    color: gold;
+    font-family: cursive;
+    border-color: orange;
+}
