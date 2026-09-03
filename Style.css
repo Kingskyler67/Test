@@ -588,3 +588,12 @@ a:hover{
     font-family: cursive;
     border-color: orange;
 }
+.Jags{
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: teal;
+    color: gold;
+    font-family: cursive;
+    border-color: black;
+}
