@@ -398,7 +398,7 @@ img {
   font-family: cursive;
   border-color: red;
 }
-  .Fernado{
+.Fernado{
       border: solid 3px; 
   border-width: thick;
   border-radius: 10px;
@@ -451,7 +451,7 @@ img {
   border-color: red;
 }
 a:hover{
-    color: rgb(57, 16, 204);
+    color: rgb(135, 0, 0);
 }
 .Justin{ 
   border: solid 3px; 
@@ -515,4 +515,85 @@ a:hover{
     color: silver;
     font-family: cursive;
     border-color: black; 
+}
+.pat {
+  border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: gold;
+    color: red;
+    font-family: cursive;
+    border-color: gold;   
+}
+.Royals {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: royalblue;
+    color: silver;
+    font-family: cursive;
+    border-color: blue;
+}
+.Angels {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: navy;
+    color: silver ;
+    font-family: cursive;
+    border-color: maroon; 
+}
+.vikings {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: purple;
+    color: black ;
+    font-family: cursive;
+    border-color: gold; 
+}
+.Padres {
+     border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: white;
+    color: gold;
+    font-family: cursive;
+    border-color: brown;    
+}
+.Reds {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: white;
+    color: red;
+    font-family: cursive;
+    border-color: black;    
+}
+.Patriots {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: navy;
+    color: silver;
+    font-family: cursive;
+    border-color: red;
+}
+.Broncos {
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: navy;
+    color: gold;
+    font-family: cursive;
+    border-color: orange;
+}
+.Jags{
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: teal;
+    color: gold;
+    font-family: cursive;
+    border-color: black;
 }
