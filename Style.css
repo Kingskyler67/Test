@@ -597,3 +597,13 @@ a:hover{
     font-family: cursive;
     border-color: black;
 }
+.braves{
+    border: solid;
+    border-width: thick;
+    border-radius: 10px;
+    background: navy;
+    color: red;
+    font-family: cursive;
+    border-color: gold;
+}
+
